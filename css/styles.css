@@ -389,6 +389,27 @@ a[href="#"] {
 .main-page-foto .main-foto {
   width: calc((100% - 30px)/4)
 }
+.main-page-foto .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+.main-page-foto .social-item {
+  width: 44px;
+  height: 44px;
+  background-color: aqua;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.main-page-foto .social-link {
+  width: 100%;
+  height: 100%;
+  
+}
+.main-page-foto .social-item:last-child {
+  margin-right: 0px;
+}
 
 .foto-title {
   padding-top: 30px;
