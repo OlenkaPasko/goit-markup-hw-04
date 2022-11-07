@@ -477,6 +477,51 @@ color: var(--primary-white-color);
   text-align: center;
   letter-spacing: 0.03em;
 }
+/*Постійні клієнти*/
+
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.clients-list .client-item {
+  width: 170;
+  height: 92;
+  margin-right: 30px;
+}
+
+.clients-list .client-item:last-child {
+  margin-right: 0px;
+}
+.client-icon {
+  padding: 16px 32px;
+}
+.clients-list .client-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  background-color: var(--primary-white-color);
+  color: var(--icons-grey-color);
+
+}
+
+.clients-list .client-link:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color)
+}
+
+.clients-list .client-icon {
+  fill: currentColor
+}
 
 /*Портфоліо*/
 .portf-button {
