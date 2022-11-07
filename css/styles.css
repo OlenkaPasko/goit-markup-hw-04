@@ -177,7 +177,7 @@ a[href="#"] {
    color: var(--primary-text-color);
  }
  .mail-icon { 
-  margin-right: 10px ;
+  margin-right: 10px;
 }
 .contakt-link {
  fill: currentColor
@@ -293,6 +293,12 @@ fill: currentColor
   padding-top: 94px;
   padding-bottom: 0px;
 
+}
+.features-icon {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background:var(--primary-button-color);
+  border-radius: 4px;
 }
 
 .title {
