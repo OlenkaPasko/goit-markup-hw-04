@@ -232,8 +232,7 @@ a[href="#"] {
 
 .hero {
   width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding:200px 452px;
   text-align: center;
 
   background-color: var(--becround-hero-color);
