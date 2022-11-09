@@ -70,15 +70,12 @@ p {
 /*верхня лінія*/
 .page-header {
   margin: 0px;
+  border-bottom: 1px solid var(--border-line-color);
 }
 
 .page-header .container {
   display: flex;
   align-items: center;
-}
-
-.header-cont {
-  border-bottom: 1px solid var(--border-line-color);
 }
 
 /*логотип*/
@@ -220,7 +217,7 @@ a[href="#"] {
 }
 
 .heder-tel-link {
-  fill: currentColor
+  fill:  currentColor
 }
 
 .tel-icon {
@@ -232,7 +229,8 @@ a[href="#"] {
 
 .hero {
   width: 1600px;
-  padding:200px 452px;
+  margin: 0 auto;
+  padding: 200px 0;
   text-align: center;
 
   background-color: var(--becround-hero-color);
