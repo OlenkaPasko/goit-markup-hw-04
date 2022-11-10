@@ -124,16 +124,15 @@ a {
 .site-nav {
   margin-left: 93px;
 }
-
-.site-nav {
+.site-nav .header-link {
   color: var(--title-text-color);
-
+}
+.site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-
 
 .site-nav:hover,
 .site-nav:focus {
@@ -185,7 +184,7 @@ a[href="#"] {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--title-text-color)
+  color: var(--primary-text-color)
 }
 
 .link:hover,
@@ -409,7 +408,9 @@ a[href="#"] {
 .main-page-foto {
   padding-left: 0px;
 }
-
+.foto {
+  margin-bottom: 30px;
+}
 .main-page-foto .main-foto {
   width: calc((100% - 30px)/4)
 }
@@ -417,14 +418,14 @@ a[href="#"] {
 .main-page-foto .social-icons {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 
+  margin-bottom: 30px;
 }
-
 .main-page-foto .social-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
+ 
 }
 
 .main-page-foto .social-item:last-child {
@@ -457,17 +458,12 @@ a[href="#"] {
   color: var(--primary-white-color)
 }
 
-.foto-title {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 
 .main-title .what {
   width: 264px;
 }
 
 .name-title {
-  padding-bottom: 10px;
   margin-top: 0px;
   margin-bottom: 10px;
 
@@ -481,14 +477,15 @@ a[href="#"] {
 }
 
 .text {
+  margin-bottom: 16px;
+  
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1px;
+  line-height: 19px;
 
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 /*Постійні клієнти*/
 
 .clients-list {
