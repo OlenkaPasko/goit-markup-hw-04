@@ -1,4 +1,19 @@
-/*body font-family:'Roboto';*/
+/*Скидання стилів*/
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -28,18 +43,7 @@ body {
 
 }
 
-/*Утіліти*/
-h1,
-h2,
-p {
-  margin: 0;
-}
 
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 /*секції*/
 .section {
